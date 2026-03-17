@@ -54,7 +54,7 @@ export default function AuthPage() {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 to-red-100 dark:from-gray-900 dark:to-gray-600">
+        <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-pink-100 to-red-100 dark:from-gray-900 dark:to-gray-600">
             <div className="max-w-md w-full space-y-8 p-8">
                 <div className="text-center">
                     <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
@@ -110,7 +110,7 @@ export default function AuthPage() {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full cursor-pointer flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 disabled:opacity-50"
+                        className="w-full cursor-pointer flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-linear-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 disabled:opacity-50"
                     >
                         {loading ? "Loading..." : isSignUp ? "Sign Up" : "Sign In"}
                     </button>
